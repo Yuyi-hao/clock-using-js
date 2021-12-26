@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaF4ihapZDSFGGeF0RPyJI53HpcDw73j7Ow&usqp=CAU" type="image/icon type">
+    <title>Clock</title>
+</head>
+<body>
+    <!-- <h1>Manage Your Time</h1> -->
+    <div class="container">
+        <div class="hand hour" data-hour-hand></div>
+        <div class="hand minute" data-minute-hand></div>
+        <div class="hand second" data-second-hand></div>
+        <div class="number number1"><div class="num">1</div></div>
+        <div class="number number2"><div class="num">2</div></div>
+        <div class="number number3"><div class="num">3</div></div>
+        <div class="number number4"><div class="num">4</div></div>
+        <div class="number number5"><div class="num">5</div></div>
+        <div class="number number6"><div class="num">6</div></div>
+        <div class="number number7"><div class="num">7</div></div>
+        <div class="number number8"><div class="num">8</div></div>
+        <div class="number number9"><div class="num">9</div></div>
+        <div class="number number10"><div class="num">10</div></div>
+        <div class="number number11"><div class="num">11</div></div>
+        <div class="number number12"><div class="num">12</div></div>
+    </div>
+    <div class="displayday" style="display: flex; flex-direction: column; font-family: 'DS-Digital' ">
+    <div class="digiclock" style="display: flex;">
+        <h1 id='digiHour'></h1>
+        <h1 id="digiMinute"></h1>
+        <h1 id="digiSecond"></h1>
+    </div>
+    <div class="date" style="display: flex; font-family: 'French Script MT' ">
+        <h1 id="day"></h1>
+        <h1 id="datenum"></h1>
+        <h1 id="year"></h1>
+    </div>
+    </div>
+    <script src="function.js"></script>
+</body>
+</html>
